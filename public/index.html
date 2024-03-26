@@ -28,7 +28,11 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <!-- <div id="root"></div> -->
+    <nav>
+      <a href="%PUBLIC_URL%/settings.html">Settings</a>
+      <a href="">Add Contact</a>
+    </nav>
+    <div id="transaction"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -40,20 +44,10 @@
       To create a production bundle, use `npm run build` or `yarn build`.
       -->
 
-      <div id="nav">
-        <nav>
-          <a href="">Settings</a>
-          <a href="">Add Contact</a>
-        </nav>
-      </div>
+      <div id="nav"></div>
 
       <br>
 
-      <div id="transaction">
-        <form action="">
-          <textarea name="" id="" cols="10" rows="1"></textarea>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </div>
+      
   </body>
 </html>
