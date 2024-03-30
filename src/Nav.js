@@ -8,6 +8,7 @@ function Nav () {
         <ul>
           <CustomLink to="/home">Home</CustomLink>
           <CustomLink to="/settings">Settings</CustomLink>
+          <CustomLink to="/login">Login</CustomLink>
         </ul>
       </nav>
     );
